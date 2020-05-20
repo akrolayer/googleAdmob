@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8039A3E39C64CA119BB75D751B84F50FB0CC23E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8039A3E39C64CA119BB75D751B84F50FB0CC23E7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7D962662-F062-4384-8002-8F3DCF985CA4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8039A3E39C64CA119BB75D751B84F50FB0CC23E7" : "googleAdmob\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "googleAdmob",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "googleAdmob\/googleAdmob.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:akrolayer\/googleAdmob.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8039A3E39C64CA119BB75D751B84F50FB0CC23E7"
+    }
+  ]
+}
