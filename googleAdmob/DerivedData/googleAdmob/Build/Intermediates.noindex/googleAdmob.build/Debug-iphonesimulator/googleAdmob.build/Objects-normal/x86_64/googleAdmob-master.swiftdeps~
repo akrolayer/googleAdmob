@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "657cda505018b643623ebb594502e1bd"
+build_time: [1590159195, 725791000]
+inputs:
+  "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/googleAdmob/ViewController.swift": [1589987392, 949373892]
+  "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/googleAdmob/AppDelegate.swift": [1589987392, 943235588]
+  "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/googleAdmob/SceneDelegate.swift": [1589987392, 946602965]
+  "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/googleAdmob/TableViewController.swift": [9223372036, 854775807]

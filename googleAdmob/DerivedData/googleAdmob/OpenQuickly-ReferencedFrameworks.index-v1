@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>AppKit</string>
+	<string>WatchKit</string>
+	<string>GoogleUtilities</string>
+	<string>FBLPromises</string>
+	<string>Security</string>
+	<string>objc</string>
+	<string>SystemConfiguration</string>
+	<string>UIKit</string>
+	<string>sys</string>
+	<string>Foundation</string>
+</array>
+</plist>
