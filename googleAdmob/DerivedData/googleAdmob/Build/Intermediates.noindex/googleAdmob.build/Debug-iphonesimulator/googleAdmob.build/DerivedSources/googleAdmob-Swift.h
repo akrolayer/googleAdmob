@@ -186,6 +186,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import GoogleMobileAds;
 @import UIKit;
 #endif
 
@@ -237,7 +238,7 @@ SWIFT_CLASS("_TtC11googleAdmob13SceneDelegate")
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11googleAdmob19TableViewController")
-@interface TableViewController : UITableViewController
+@interface TableViewController : UITableViewController <GADBannerViewDelegate, GADInterstitialDelegate>
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -246,9 +247,11 @@ SWIFT_CLASS("_TtC11googleAdmob19TableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class GADBannerView;
 
 SWIFT_CLASS("_TtC11googleAdmob14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, strong) IBOutlet GADBannerView * _Null_unspecified bannerView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

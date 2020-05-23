@@ -11,6 +11,7 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "GADMobileAds"
 - "Set"
 - !private "StringLiteralType"
 - "UIApplication"
@@ -21,6 +22,7 @@ depends-top-level:
 - "UISceneSession"
 depends-member:
 - ["11googleAdmob11AppDelegateC", "Bool"]
+- !private ["11googleAdmob11AppDelegateC", "GADMobileAds"]
 - ["11googleAdmob11AppDelegateC", "Set"]
 - ["11googleAdmob11AppDelegateC", "UIApplication"]
 - ["11googleAdmob11AppDelegateC", "UIScene"]
@@ -42,6 +44,7 @@ depends-member:
 - ["11googleAdmob11AppDelegateC", "init"]
 - ["11googleAdmob11AppDelegateC", "window"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "GADMobileAds"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "UISceneConfiguration"]
 - ["s7CVarArgP", ""]
@@ -59,8 +62,11 @@ depends-member:
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "role"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "start"]
 - ["s7CVarArgP", "window"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "GADMobileAds"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "UISceneConfiguration"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -78,8 +84,11 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "role"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "GADMobileAds"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "UISceneConfiguration"]
 - ["s23CustomStringConvertibleP", ""]
@@ -97,8 +106,11 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "role"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "start"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "GADMobileAds"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "UISceneConfiguration"]
 - ["SQ", ""]
@@ -116,8 +128,13 @@ depends-member:
 - ["SQ", "applicationWillTerminate"]
 - !private ["SQ", "init"]
 - !private ["SQ", "role"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "start"]
 - ["SQ", "window"]
+- !private ["So12GADMobileAdsC", "sharedInstance"]
+- !private ["So12GADMobileAdsC", "start"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "GADMobileAds"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "UISceneConfiguration"]
 - ["SH", ""]
@@ -135,12 +152,15 @@ depends-member:
 - ["SH", "applicationWillTerminate"]
 - !private ["SH", "init"]
 - !private ["SH", "role"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "start"]
 - ["SH", "window"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "role"]
 - !private ["So9NSCopyingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "GADMobileAds"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "UIApplication"]
@@ -161,8 +181,11 @@ depends-member:
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "role"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- !private ["So8NSObjectC", "start"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "GADMobileAds"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - !private ["So8NSObjectP", "UISceneConfiguration"]
 - ["So8NSObjectP", ""]
@@ -180,10 +203,13 @@ depends-member:
 - ["So8NSObjectP", "applicationWillTerminate"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "role"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "start"]
 - ["So8NSObjectP", "window"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "role"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "GADMobileAds"]
 - !private ["So21UIApplicationDelegateP", "UISceneConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
@@ -200,6 +226,7 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "GADMobileAds"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "UISceneConfiguration"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -218,6 +245,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "GADMobileAds"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "UIApplication"]
@@ -240,6 +268,7 @@ depends-member:
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "GADMobileAds"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - !private ["So30UIResponderStandardEditActionsP", "UISceneConfiguration"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -260,6 +289,7 @@ depends-member:
 - !private ["So20UISceneConfigurationC", "init"]
 - !private ["So14UISceneSessionC", "role"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "GADMobileAds"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - !private ["So23UIUserActivityRestoringP", "UISceneConfiguration"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -277,6 +307,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
 - ["So23UIUserActivityRestoringP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GADMobileAds"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISceneConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
@@ -294,8 +325,11 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GADMobileAds"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISceneConfiguration"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
@@ -313,6 +347,8 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "role"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 depends-nominal:
 - "11googleAdmob11AppDelegateC"
@@ -320,6 +356,7 @@ depends-nominal:
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
+- !private "So12GADMobileAdsC"
 - "SH"
 - !private "So8NSCodingP"
 - !private "So9NSCopyingP"
@@ -352,6 +389,113 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdMetadata.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardedAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationRewardedAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPCustomRenderedAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeCustomTemplateAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationNativeAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventNativeAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationInterstitialAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInstreamAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAppOpenAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationBannerAd.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdReward.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediatedUnifiedNativeAdNotificationSource.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdImage.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+CustomClickGesture.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInAppPurchase.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardedAdMetadataDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardedAdDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventNativeAdDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRewardBasedVideoAdDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInAppPurchaseDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdSizeDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdUnconfirmedClickDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInterstitialDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPCustomRenderedInterstitialDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventInterstitialDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdLoaderDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAudioVideoManagerDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADVideoControllerDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventBannerDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdEventDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAppEventDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeExpressAdViewDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADBannerViewDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPCustomRenderedBannerViewDelegate.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdValue.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdSize.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdSize.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAd+ConfirmationClick.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInterstitial.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPInterstitial.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventInterstitial.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkAdapterProtocol.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkAdapterProtocol.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMAdNetworkConnectorProtocol.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMRewardBasedVideoAdNetworkConnectorProtocol.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdImage+Mediation.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdConfiguration.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationServerConfiguration.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRequestConfiguration.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMuteThisAdReason.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADResponseInfo.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMediaAspectRatio.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADVersionNumber.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdLoader.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAudioVideoManager.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADVideoController.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDebugOptionsViewController.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventBanner.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBAdapter.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdapter.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADPresentationError.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRequestError.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADExtras.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdNetworkExtras.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventExtras.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMobileAds.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GoogleMobileAds.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GoogleMobileAdsDefines.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdLoaderAdTypes.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMEnums.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdViewAdOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDelayedAdRenderingOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADServerSideVerificationOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADVideoOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdMediaAdLoaderOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeAdImageAdLoaderOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMultipleAdsAdLoaderOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeMuteThisAdLoaderOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPBannerViewOptions.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADUnifiedNativeAdAssetIdentifiers.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventParameters.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/RTBMediation/GADRTBRequestParameters.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInitializationStatus.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdFormat.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDisplayAdMeasurement.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMediaContent.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADRequest.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPRequest.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/Mediation/GADMediationAdRequest.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADDynamicHeightSearchRequest.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADCustomEventRequest.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADMediaView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADInstreamAdView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADNativeExpressAdView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADBannerView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/DFPBannerView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADSearchBannerView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Headers/GADAdChoicesView.h"
+- "/Users/akrolayer/Desktop/googleAdmob/googleAdmob/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -363,6 +507,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "32f3f7f8fec1db170f4a48cd26aba846"
+interface-hash: "d0453eb1f8c117595fa5c00fa4de7169"

@@ -6,9 +6,10 @@
 	<string>WatchKit</string>
 	<string>GoogleUtilities</string>
 	<string>FBLPromises</string>
-	<string>Security</string>
+	<string>GoogleMobileAds</string>
 	<string>objc</string>
 	<string>SystemConfiguration</string>
+	<string>Security</string>
 	<string>UIKit</string>
 	<string>sys</string>
 	<string>Foundation</string>
