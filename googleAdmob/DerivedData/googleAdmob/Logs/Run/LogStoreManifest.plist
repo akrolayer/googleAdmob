@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>FFDBA60C-EE8F-49AC-B562-A710CE1F1E03</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FFDBA60C-EE8F-49AC-B562-A710CE1F1E03.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>googleAdmob project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>googleAdmob</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run googleAdmob</string>
+			<key>timeStartedRecording</key>
+			<real>612023231.67705798</real>
+			<key>timeStoppedRecording</key>
+			<real>612024264.09979296</real>
+			<key>title</key>
+			<string>Run googleAdmob</string>
+			<key>uniqueIdentifier</key>
+			<string>FFDBA60C-EE8F-49AC-B562-A710CE1F1E03</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

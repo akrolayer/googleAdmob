@@ -6,80 +6,264 @@ provides-nominal:
 provides-member:
 - ["11googleAdmob14ViewControllerC", ""]
 provides-dynamic-lookup:
+- "bannerView"
 - "viewDidLoad"
 depends-top-level:
+- "AssignmentPrecedence"
+- "GADBannerView"
+- !private "GADRequest"
+- !private "StringLiteralType"
 - "UIViewController"
 - "ViewController"
 depends-member:
+- !private ["So15CALayerDelegateP", "adUnitID"]
+- !private ["So15CALayerDelegateP", "load"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "GADRequest"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "adUnitID"]
+- !private ["s7CVarArgP", "bannerView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "rootViewController"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "GADRequest"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "adUnitID"]
+- !private ["s28CustomDebugStringConvertibleP", "bannerView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "adUnitID"]
+- !private ["s17CustomReflectableP", "load"]
+- !private ["s17CustomReflectableP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "GADRequest"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "adUnitID"]
+- !private ["s23CustomStringConvertibleP", "bannerView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "load"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "adUnitID"]
+- !private ["Se", "load"]
+- !private ["Se", "rootViewController"]
+- !private ["SE", "adUnitID"]
+- !private ["SE", "load"]
+- !private ["SE", "rootViewController"]
+- !private ["SQ", "GADRequest"]
 - ["SQ", ""]
+- !private ["SQ", "adUnitID"]
+- !private ["SQ", "bannerView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "load"]
+- !private ["SQ", "rootViewController"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "adUnitID"]
+- !private ["s23ExpressibleByNilLiteralP", "load"]
+- !private ["s23ExpressibleByNilLiteralP", "rootViewController"]
+- !private ["So13GADBannerViewC", "adUnitID"]
+- !private ["So13GADBannerViewC", "load"]
+- !private ["So13GADBannerViewC", "rootViewController"]
+- !private ["So10GADRequestC", "init"]
+- !private ["SH", "GADRequest"]
 - ["SH", ""]
+- !private ["SH", "adUnitID"]
+- !private ["SH", "bannerView"]
+- !private ["SH", "init"]
+- !private ["SH", "load"]
+- !private ["SH", "rootViewController"]
 - !private ["SH", "viewDidLoad"]
+- !private ["So8NSCodingP", "GADRequest"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "adUnitID"]
+- !private ["So8NSCodingP", "bannerView"]
+- !private ["So8NSCodingP", "load"]
+- !private ["So8NSCodingP", "rootViewController"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "GADRequest"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "bannerView"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "GADBannerView"]
+- !private ["So8NSObjectC", "GADRequest"]
+- !private ["So8NSObjectC", "adUnitID"]
+- ["So8NSObjectC", "bannerView"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "load"]
+- !private ["So8NSObjectC", "rootViewController"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "GADRequest"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "adUnitID"]
+- !private ["So8NSObjectP", "bannerView"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "load"]
+- !private ["So8NSObjectP", "rootViewController"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "adUnitID"]
+- !private ["Sq", "load"]
+- !private ["Sq", "rootViewController"]
+- !private ["So29UIAccessibilityIdentificationP", "adUnitID"]
+- !private ["So29UIAccessibilityIdentificationP", "load"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "adUnitID"]
+- !private ["So12UIAppearanceP", "load"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "GADRequest"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "adUnitID"]
+- !private ["So21UIAppearanceContainerP", "bannerView"]
+- !private ["So21UIAppearanceContainerP", "load"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "GADRequest"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "bannerView"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "adUnitID"]
+- !private ["So17UICoordinateSpaceP", "load"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "adUnitID"]
+- !private ["So13UIDynamicItemP", "load"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "GADRequest"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "adUnitID"]
+- !private ["So18UIFocusEnvironmentP", "bannerView"]
+- !private ["So18UIFocusEnvironmentP", "load"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "adUnitID"]
+- !private ["So11UIFocusItemP", "load"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "adUnitID"]
+- !private ["So20UIFocusItemContainerP", "load"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", "adUnitID"]
+- !private ["So24UILargeContentViewerItemP", "load"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "GADRequest"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "adUnitID"]
+- !private ["So30UIPasteConfigurationSupportingP", "bannerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "load"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "GADBannerView"]
+- !private ["So11UIResponderC", "GADRequest"]
+- !private ["So11UIResponderC", "adUnitID"]
+- ["So11UIResponderC", "bannerView"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "load"]
+- !private ["So11UIResponderC", "rootViewController"]
 - ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "GADRequest"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "adUnitID"]
+- !private ["So30UIResponderStandardEditActionsP", "bannerView"]
+- !private ["So30UIResponderStandardEditActionsP", "load"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "GADRequest"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "bannerView"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "GADRequest"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "adUnitID"]
+- !private ["So18UITraitEnvironmentP", "bannerView"]
+- !private ["So18UITraitEnvironmentP", "load"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "GADRequest"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "adUnitID"]
+- !private ["So23UIUserActivityRestoringP", "bannerView"]
+- !private ["So23UIUserActivityRestoringP", "load"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "adUnitID"]
+- !private ["So6UIViewC", "load"]
+- !private ["So6UIViewC", "rootViewController"]
+- ["So16UIViewControllerC", "GADBannerView"]
+- !private ["So16UIViewControllerC", "GADRequest"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bannerView"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- ["11googleAdmob14ViewControllerC", "GADBannerView"]
+- !private ["11googleAdmob14ViewControllerC", "GADRequest"]
+- ["11googleAdmob14ViewControllerC", "bannerView"]
 - ["11googleAdmob14ViewControllerC", "deinit"]
 - ["11googleAdmob14ViewControllerC", "init"]
 - ["11googleAdmob14ViewControllerC", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GADRequest"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adUnitID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bannerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GADRequest"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "adUnitID"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bannerView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "load"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "adUnitID"]
+- !private ["s21_ObjectiveCBridgeableP", "load"]
+- !private ["s21_ObjectiveCBridgeableP", "rootViewController"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "adUnitID"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "load"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 depends-nominal:
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
 - "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So13GADBannerViewC"
+- !private "So10GADRequestC"
 - "SH"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
 - "11googleAdmob14ViewControllerC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -216,4 +400,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d4a99a78bd66db7513e943850006300e"
+interface-hash: "e1e92a3164bd06ee07c0e67f77a868bd"

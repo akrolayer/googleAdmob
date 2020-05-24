@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>FF69658F-79BF-4DB5-B401-0115F5D210B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FF69658F-79BF-4DB5-B401-0115F5D210B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>googleAdmob project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>googleAdmob</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build googleAdmob</string>
+			<key>timeStartedRecording</key>
+			<real>612023211.48799801</real>
+			<key>timeStoppedRecording</key>
+			<real>612023231.630494</real>
+			<key>title</key>
+			<string>Build googleAdmob</string>
+			<key>uniqueIdentifier</key>
+			<string>FF69658F-79BF-4DB5-B401-0115F5D210B0</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
